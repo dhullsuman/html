@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            text-align: center;
+            width:30%;
+            margin:auto;
+        }
+        #container{
+            width:60%;
+            display:flex;
+            margin:auto;
+            margin-top:50px;
+            justify-content: space-evenly;
+            background-color: #f6ebe6;
+            padding: 60px 40px;
+            border-radius: 40px;
+        }
+        #container>div{
+            display:flex;
+            flex-direction:column;
+            justify-content: center;
+            align-items:center;
+            background-color: white;
+            border-radius: 20px;
+            font-weight: bold;
+            height: 150px;
+            justify-content: space-evenly;
+            width: 17%;
+            /* text-align: top; */
+        }
+        #container>div>p:first-child{
+            font-size: 20px;
+            background-color: #f6ebe6;
+            padding: 10px 15px;
+            border-radius: 8px;
+        }
+        #container>div>p+p{
+           
+            margin:auto;
+            text-align:center;
+            margin-bottom:auto;
+        }
+        #container>div:last-child>p:last-child{
+            margin-bottom: 20px;
+        }
+        #container>div:nth-child(4)>p+p{
+            margin-bottom: 50px;
+        }
+        </style>
+</head>
+<body>
+    <h1>Ready To Realize Your Career Potential?</h1>
+    <div id="container">
+        <div>
+            <p>1</p>
+            <p>Apply for program</p>
+        </div>
+        <div>
+            <p>2</p>
+            <p>Crack The Admission Test</p>
+        </div>
+        <div>
+            <p>3</p>
+            <p>Learn At 0 Upfront Fee</p>
+        </div>
+        <div>
+            <p>4</p>
+            <p>Get Placed</p>
+        </div>
+        <div>
+            <p>5</p>
+            <p>Pay When You Earn 5 LPA CTC</p>
+        </div>
+    </div>
+</body>
+</html>

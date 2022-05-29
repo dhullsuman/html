@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #container{
+            height: auto;
+            width: 100%;
+            background-color: rgb(236, 232, 233);
+            padding: 30px;
+        }
+        #bound>div{
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            padding: 10px;
+            border-radius: 10px; 
+            background-color: white;
+        }
+        #img{
+            width: 100%;
+        }
+        p{
+            color: rgb(39, 38, 38);
+            text-align: center;
+            font-size: 18px;
+        }
+        #container>#bound{
+            width: 90%;
+            height: auto;
+            margin: auto;
+            display: grid;
+            grid-template-columns: repeat(8,8%);
+            grid-template-rows: repeat(2,100px);
+            gap: 20px;
+            justify-content: center;
+            grid-template-areas: 
+            "a b c d e f g h" 
+            "i j k l m n o p";
+        }
+        #container>#button{
+            margin: auto;
+            height: 50px;
+            width: 50%;
+            /* border: 1px solid; */
+            padding: 60px;
+            display: flex;
+            background-color: transparent;
+            align-items: center;
+            justify-content: center;
+        }
+        button{
+            color: red;
+            border:1px solid red;
+            padding: 10px;
+            border-radius: 5px;
+            /* justify-content: center; */
+            }
+        button:hover{
+            color: white;
+            background-color: teal;
+        }
+        h1{
+            text-align: center;
+        }
+        #bound>div:nth-child(1){
+            grid-area: a;
+        }
+        #bound>div:nth-child(2){
+            grid-area: b;
+        }
+        #bound>div:nth-child(3){
+            grid-area: c;
+        }
+        #bound>div:nth-child(4){
+            grid-area: d;
+        }
+        #bound>div:nth-child(5){
+            grid-area: e;
+        }
+        #bound>div:nth-child(6){
+            grid-area: f;
+        }
+        #bound>div:nth-child(7){
+            grid-area: g;
+        }#bound>div:nth-child(8){
+            grid-area: h;
+        }
+        #bound>div:nth-child(9){
+            grid-area: i;
+        }
+        #bound>div:nth-child(10){
+            grid-area: j;
+        }
+        #bound>div:nth-child(11){
+            grid-area: k;
+        }
+        #bound>div:nth-child(12){
+            grid-area: l;
+        }
+        #bound>div:nth-child(13){
+            grid-area: m;
+        }
+        #bound>div:nth-child(14){
+            grid-area: n;
+        }
+        #bound>div:nth-child(15){
+            grid-area: o;
+        }
+        #bound>div:nth-child(16){
+            grid-area: p;
+        }
+        /* p{ */
+            /* margin-top: 20px; */
+        /* } */
+    </style>
+</head>
+<body>
+    <div id="container">
+    <div>
+    <p>Have a Dream Company In Mind?</p>
+    <h1>Meet Our 700+ Hiring partners</h1>
+    </div>
+    <div id="bound">
+        <div>
+            <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/eatfit_9dc276a187.svg"/>
+        </div>
+        <div>
+            <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/dream11_d6c8d97a52.svg"/>
+        </div>
+        <div>
+            <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/urbanpiper_2884348a0b.svg"/>
+        </div>
+        <div>
+            <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/airmeet_93e45faced.svg"/>
+        </div>
+        <div>
+            <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/paytm_a5c1ce2bc6.svg"/>
+        </div>
+        <div>
+            <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/whitehat_5a86f1e308.svg"/>
+        </div>
+        <div>
+            <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/bharatpe_a3a5a3f552.svg"/>
+        </div>
+        <div>
+            <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/swiggy_bc1b88842e.svg"/>
+        </div>
+        <div>
+            <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/vyapar_3f3770ebb5.svg"/>
+        </div>
+        <div>
+            <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/pagarbook_2746958f65.svg"/>
+        </div>
+        <div>
+            <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/smallcase_1740bcc33f.svg"/>
+        </div>
+        <div>
+            <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/sharechat_23a9923a34.svg"/>
+        </div>
+        <div>
+            <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/ola_15b5ee2b82.svg"/>
+        </div>
+        <div>
+            <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/ibm_795b5429ee.svg"/>
+        </div>
+        <div>
+            <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/byjus_e7b97a9c80.svg"/>
+        </div>
+        <div>
+            <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/ajio_a16cd7a85b.svg"/>
+        </div>
+    </div>
+    <div  id="button">
+        <button>SEE MORE PARTNERS ></button>
+    </div>
+    </div>
+</body>
+</html>
